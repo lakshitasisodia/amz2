@@ -1,0 +1,14 @@
+
+div{
+    height: 50px;
+    width: 50px;
+    border: 8px solid rgba(10, 10, 10, 0.25);
+    border-top:8px solid rgba(10, 10, 10, 0.45);;
+    border-radius: 360%;
+    animation: loader 1s ease-in-out infinite normal;
+}
+@keyframes loader{
+    from{rotate: 0deg;}
+    to{rotate: 360deg;}
+}
+
